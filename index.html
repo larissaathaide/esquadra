@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquadrão Suicida</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/The_Suicide_Squad_(logo).png" alt="Logo Esquadrão Suicida">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+
+                <!--Joker-->
+                <li class="personagem selecionado" id="coringa" data-name="Joker" data-description="Também conhecido por Corte do Genocídio. Nas suas aparições nos livros de banda desenhada, o Joker é retratado como um gênio do crime.">
+                    <img src="./src/imagens/card-coringa.jpg" alt="Personagem Joker">
+                </li>
+
+                <!--Harley Quinn-->
+                <li class="personagem" id="harley-quinn" data-name="Harley Quinn" data-description="Arlequina, cujo nome original é Harleen Frances Quinzel, é uma personagem fictícia da DC Comics que geralmente aparece como inimiga do super-herói Batman no Universo DC.">
+                    <img src="./src/imagens/card-harley-quinn.jpg" alt="Personagem Harley Quinn">
+                </li>
+
+                <!--Katana-->
+                <li class="personagem" id="katana" data-name="Katana" data-description="Katana é uma personagem de histórias em quadrinhos publicadas pela editora norte-americana DC Comics. A personagem fez sua estreia no cinema no filme Esquadrão Suicida de 2016.">
+                    <img src="./src/imagens/card-katana.jpg" alt="Personagem Katana">
+                </li>
+
+                <!--Diablo-->
+                <li class="personagem" id="diablo" data-name="El Diablo" data-description="El Diablo é um dos personagens principais no filme Esquadrão Suicida, interpretado por Jay Hernandez. Nesta versão seu alter ego é Chato Santana, um dos integrantes do Esquadrão Suicida.">
+                    <img src="./src/imagens/card-diablo.jpg" alt="Personagem El Diablo">
+                </li>
+
+                <!--Deadshot Negroid-->
+                <li class="personagem" id="deadshot-negroid" data-name="Deadshot Negroid" data-description="Deadshot é um supervilão e anti-herói que aparece nas histórias em quadrinhos americanas publicadas pela DC Comics . Criado por David Vern Reed e Lew Schwartz.">
+                    <img src="./src/imagens/card-deadshot-negroid.jpg" alt="Personagem Deadshot Negroid">
+                </li>
+
+                <!--Capitão Boomerangue-->
+                <li class="personagem" id="Captain-Boomerang" data-name="Captain Boomerang" data-description="Captain Boomerang é o nome de dois supervilões que aparecem nas histórias em quadrinhos americanas publicadas pela DC, que servem respectivamente como inimigo da versão de Barry Allen.">
+                    <img src="./src/imagens/card-Captain-Boomerang.jpg" alt="Personagem Captain Boomerang">
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-coringa.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Joker</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Também conhecido por Corte do Genocídio. Nas suas aparições nos livros de banda desenhada, o Joker é retratado como um gênio do crime.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
